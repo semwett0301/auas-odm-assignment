@@ -1,5 +1,3 @@
-from shutil import which
-
 # Scrapy settings for scraper project
 #
 # For simplicity, this file contains only settings considered important or
@@ -8,6 +6,7 @@ from shutil import which
 #     https://docs.scrapy.org/en/latest/topics/settings.html
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
+from twisted.python.procutils import which
 
 BOT_NAME = "scrap_module"
 
@@ -17,7 +16,7 @@ NEWSPIDER_MODULE = "scrap_module.spiders"
 PROXY_URL = "http://127.0.0.1:24000"
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = "scraper (+http://www.yourdomain.com)"
+#USER_AGENT = "scrap_module (+http://www.yourdomain.com)"
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -47,9 +46,9 @@ ROBOTSTXT_OBEY = True
 
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
-# SPIDER_MIDDLEWARES = {
-#    "scraper.middlewares.CustomProxyMiddleware": 1,
-# }
+#SPIDER_MIDDLEWARES = {
+#    "scraper.middlewares.ScrapModuleSpiderMiddleware": 543,
+#}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
