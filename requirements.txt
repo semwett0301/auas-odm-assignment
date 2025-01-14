@@ -10,3 +10,6 @@ matplotlib
 fastparquet
 pyarrow
 scrapy
+scrapy-selenium
+selenium
+scrapy-proxies
