@@ -6,7 +6,7 @@
 import scrapy
 
 
-class ScrapModuleItem(scrapy.Item):
+class ImdbScraperItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     pass
