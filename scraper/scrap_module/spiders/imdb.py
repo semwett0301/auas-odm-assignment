@@ -1,6 +1,7 @@
 import time
 
 import scrapy
+import pandas as pd
 from scrapy_selenium import SeleniumRequest
 from selenium.webdriver import Keys
 from selenium.webdriver.common.by import By
@@ -38,6 +39,8 @@ class ImdbClubSpider(scrapy.Spider):
 
     _PAGE_NUM = 5000
 
+    scraped_urls = []
+
     def __init__(self, iterations=None, *args, **kwargs):
         super(ImdbClubSpider, self).__init__(*args, **kwargs)
         self.iterations = int(iterations) if iterations else None
@@ -69,5 +72,10 @@ class ImdbClubSpider(scrapy.Spider):
 
         for product in driver.find_elements(By.CSS_SELECTOR, self._MOVIE_ELEM):
             url = product.find_element(By.CSS_SELECTOR, "a.ipc-title-link-wrapper").get_attribute("href")
+            self.scraped_urls.append(url)
 
             yield {'url': url}
+
+    @classmethod
+    def get_scraped_data(cls):
+        return pd.DataFrame(cls.scraped_data)
