@@ -31,7 +31,7 @@ class ImdbReview(Item):
     author = Field()
     body = Field()
 
-class MetacriticMovieItem(Item):
+class MetacriticMovie(Item):
     title = Field()
     release_date = Field()
     metascore = Field()
@@ -40,7 +40,13 @@ class MetacriticMovieItem(Item):
     genres = Field()
     mpaa = Field()
     cast = Field()
-    reviews = Field()
     meta_link = Field()
     movie_url = Field()
 
+class MetacriticReview(ImdbReview):
+    type = Field()
+
+class MetacriticCast(Item):
+    name = Field()
+    position = Field()
+    role = Field()
