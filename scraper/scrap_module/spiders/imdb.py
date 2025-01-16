@@ -3,10 +3,13 @@ import time
 import scrapy
 import pandas as pd
 from scrapy_selenium import SeleniumRequest
+from selenium.common import NoSuchElementException
 from selenium.webdriver import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
+
+from scrap_module.items import ImdbUrlItem
 
 
 def is_element_in_viewport(driver, element):
@@ -31,7 +34,7 @@ def wait_for_element_to_disappear(driver, selector, timeout=30):
         time.sleep(0.5)
     return False
 
-class ImdbClubSpider(scrapy.Spider):
+class ImdbSpider(scrapy.Spider):
     name = "imdb"
 
     _NEXT_BUTTON = 'button.ipc-see-more__button'
@@ -39,10 +42,9 @@ class ImdbClubSpider(scrapy.Spider):
 
     _PAGE_NUM = 5000
 
-    scraped_urls = []
 
     def __init__(self, iterations=None, *args, **kwargs):
-        super(ImdbClubSpider, self).__init__(*args, **kwargs)
+        super(ImdbSpider, self).__init__(*args, **kwargs)
         self.iterations = int(iterations) if iterations else None
 
     def start_requests(self):
@@ -70,12 +72,15 @@ class ImdbClubSpider(scrapy.Spider):
 
             wait_for_element_to_disappear(driver, "button.ipc-btn")
 
-        for product in driver.find_elements(By.CSS_SELECTOR, self._MOVIE_ELEM):
-            url = product.find_element(By.CSS_SELECTOR, "a.ipc-title-link-wrapper").get_attribute("href")
-            self.scraped_urls.append(url)
+        for index, product in enumerate(driver.find_elements(By.CSS_SELECTOR, self._MOVIE_ELEM)):
+            if index == 1:
+                break
 
-            yield {'url': url}
+            try:
+                product.find_element(By.CSS_SELECTOR, '.metacritic-score-label')
+                url = product.find_element(By.CSS_SELECTOR, "a.ipc-title-link-wrapper").get_attribute("href")
 
-    @classmethod
-    def get_scraped_data(cls):
-        return pd.DataFrame(cls.scraped_data)
+                item = ImdbUrlItem(url=url)
+                yield item
+            except NoSuchElementException:
+                continue
