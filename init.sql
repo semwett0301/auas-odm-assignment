@@ -7,7 +7,6 @@ CREATE TABLE IF NOT EXISTS movie (
     movie_url VARCHAR(256),
     mpaa NUMERIC,
     budget NUMERIC,
-    is_colored BOOLEAN,
     opening_weekend NUMERIC
 );
 
@@ -37,7 +36,7 @@ CREATE TABLE IF NOT EXISTS company (
 CREATE TABLE IF NOT EXISTS movie_company (
     movie_key_title VARCHAR REFERENCES movie(key_title_year),
     company_name VARCHAR REFERENCES company(name),
-    type VARCHAR,
+    type VARCHAR(256),
     PRIMARY KEY (movie_key_title, company_name)
 );
 
@@ -61,17 +60,15 @@ CREATE TABLE IF NOT EXISTS person (
 CREATE TABLE IF NOT EXISTS movie_cast (
     movie_key_title VARCHAR REFERENCES movie(key_title_year),
     person_name VARCHAR REFERENCES person(name),
-    position VARCHAR,
-    role VARCHAR,
+    position VARCHAR(256),
+    role VARCHAR(256),
     PRIMARY KEY (movie_key_title, person_name)
 );
 
 CREATE TABLE IF NOT EXISTS release (
     release_id SERIAL PRIMARY KEY,
     movie_key_title VARCHAR REFERENCES movie(key_title_year),
-    release_group_name VARCHAR,
     date DATE,
-    markets_amount INTEGER,
     domestic_income NUMERIC,
     international_income NUMERIC,
     worldwide_income NUMERIC
@@ -85,15 +82,4 @@ CREATE TABLE IF NOT EXISTS review (
     body TEXT,
     date DATE,
     author VARCHAR
-);
-
-CREATE TABLE IF NOT EXISTS streaming_platform (
-    name VARCHAR PRIMARY KEY
-);
-
-CREATE TABLE IF NOT EXISTS streaming_option (
-    movie_key_title VARCHAR REFERENCES movie(key_title_year),
-    streaming_platform_name VARCHAR REFERENCES streaming_platform(name),
-    price NUMERIC,
-    PRIMARY KEY (movie_key_title, streaming_platform_name)
 );
