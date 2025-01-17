@@ -1,5 +1,6 @@
 #!/bin/bash
-
+# Semen
+# This is the script that
 run_spider() {
     spider_name=$1
     params=$2

@@ -1,8 +1,9 @@
-from enum import Enum
+# Nadine
+# Spider that scraps metacritic.com
 
 import scrapy
 
-from scrap_module.items import MetacriticMovie, MetacriticReview, Cast
+from scrap_module.items import MetacriticMovie, Cast
 
 class MetacriticSpider(scrapy.Spider):
     name = "metacritic"

@@ -1,3 +1,6 @@
+# Semen
+# The spider that scraps the concrete imdb.com via Selenium
+
 import re
 import time
 

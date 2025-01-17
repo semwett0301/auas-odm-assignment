@@ -1,3 +1,6 @@
+# Lucas van der Wielen
+# The spider that scraps the list of movies on imdb.com via Selenium
+
 import time
 
 import scrapy

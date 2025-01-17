@@ -1,3 +1,6 @@
+# Anastasia
+# Spider that scraps boxofficemojo.com
+
 from enum import Enum
 
 import scrapy

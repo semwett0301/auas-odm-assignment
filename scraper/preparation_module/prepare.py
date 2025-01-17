@@ -1,3 +1,6 @@
+# Lucas Boeseman
+# This is the script that prepares and inserts the scrapped data into database
+
 import re
 import sys
 from datetime import datetime
