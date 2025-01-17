@@ -13,35 +13,39 @@ get_start_urls() {
     echo "$start_urls"
 }
 
-extract_meta_links_jsonl() {
+extract_links_jsonl() {
     local jsonl_file="$1"  # Path to the JSONL file
 
-    # Check if jq is installed
     if ! command -v jq &> /dev/null; then
         echo "Error: jq is not installed. Please install it and try again."
         return 1
     fi
 
-    # Extract meta_link fields and join them with commas
-    local meta_links
-    meta_links=$(jq -r '.meta_link // empty' "$jsonl_file" | paste -sd "," -)
+    local link_attribute="$2"
+    local links
 
-    echo "$meta_links"
+    links=$(jq -r ".$link_attribute // empty" "$jsonl_file" | paste -sd "," -)
+
+    echo "$links"
 }
 
 
+#
+#run_spider "imdb" "-a iterations=1" "data/imdb.json"
+#
+#start_urls=$(get_start_urls "data/imdb.json")
+#
+#for url in $start_urls; do
+#    echo "$start_url"
+#    run_spider 'imdb_movie' "-a start_url=$url" "data/imdb_movie.jsonl"
+#done
+#
+#meta_links=$(extract_links_jsonl data/imdb_movie.jsonl "meta_link")
+#
+#run_spider "metacritic" "-a start_urls=${meta_links}" "data/metacritic.json"
 
-run_spider "imdb" "-a iterations=1" "data/imdb.json"
+box_office_links=$(extract_links_jsonl data/imdb_movie.jsonl "box_office_link")
 
-start_urls=$(get_start_urls "data/imdb.json")
-
-for url in $start_urls; do
-    echo "$start_url"
-    run_spider 'imdb_movie' "-a start_url=$url" "data/imdb_movie.jsonl"
-done
-
-meta_links=$(extract_meta_links_jsonl imdb_movie.jsonl)
-
-run_spider "metacritic" "-a start_urls=${meta_links}" "data/metacritic.json"
+run_spider "box_office" "-a start_urls=${box_office_links}" "data/box_office.json"
 
 echo "Done"

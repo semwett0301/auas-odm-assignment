@@ -9,6 +9,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
+BOX_OFFICE_DOMAIN = 'www.boxofficemojo.com'
+
 
 def scroll_to_bottom(driver, wait_time=2):
     last_height = driver.execute_script("return document.body.scrollHeight")
@@ -48,12 +50,13 @@ class ImdbMovieSpider(scrapy.Spider):
         genres = self._get_genres(wait)
         release_date = self._get_release_date(wait)
         budget = self._get_budget(wait)
+        box_office_link = self._get_box_office_link(response)
 
-        result_movie = ImdbMovieItem(title=title, genres=genres, release_date=release_date, budget=budget)
+        result_movie = ImdbMovieItem(title=title, genres=genres, release_date=release_date, budget=budget,
+                                     box_office_link=box_office_link)
 
         base_url = response.url.split('?')[0]
 
-        # cast_page_link = self._get_cast_page(wait)
         parents_link = f"{base_url}parentalguide"
         reviews_link = f"{base_url}reviews"
         critic_link = f"{base_url}criticreviews"
@@ -97,6 +100,10 @@ class ImdbMovieSpider(scrapy.Spider):
             EC.presence_of_element_located((By.XPATH, '//a[@aria-label="See full cast and crew"]'))
         ).get_attribute('href')
 
+    def _get_box_office_link(self, response):
+        url = response.url
+        return url.replace(url.split('/')[2], BOX_OFFICE_DOMAIN, 1)
+
     def _get_budget(self, wait):
         try:
             budget_element_text = wait.until(
@@ -108,32 +115,6 @@ class ImdbMovieSpider(scrapy.Spider):
             return int(match.group(1).replace(',', ''))
         except TimeoutException:
             return -1
-
-    # def _parse_cast(self, response):
-    #     movie = response.request.meta['movie']
-    #     reviews_link = response.request.meta['reviews_link']
-    #
-    #     driver = response.request.meta["driver"]
-    #     wait = WebDriverWait(driver, 10)
-    #
-    #     cast_elements = wait.until(
-    #         EC.presence_of_all_elements_located((By.XPATH, '//table[contains(@class, "cast_list")]//tr')))
-    #
-    #     cast = []
-    #     for row in cast_elements:
-    #         try:
-    #             actor_name = row.find_element(By.XPATH, './td[2]/a').text.strip()
-    #             character_name = row.find_element(By.XPATH, './td[4]').text.strip()
-    #             cast.append(ImdbCastMember(actor=actor_name, character=character_name))
-    #         except NoSuchElementException:
-    #             continue
-    #
-    #     movie['cast'] = cast
-    #
-    #     yield SeleniumRequest(
-    #         url=reviews_link, callback=self._parse_reviews,
-    #         meta={'movie': movie, 'critic_link': response.meta['critic_link']},
-    #     )
 
     def _get_element_text_or_default(self, element, xpath, default_value=None):
         try:
@@ -156,7 +137,7 @@ class ImdbMovieSpider(scrapy.Spider):
 
         result_reviews = []
         for review in wait.until(
-            EC.presence_of_all_elements_located((By.XPATH, '//article[contains(@class, "user-review-item")]'))
+                EC.presence_of_all_elements_located((By.XPATH, '//article[contains(@class, "user-review-item")]'))
         ):
             score = self._get_element_text_or_default(review, './/span[@class="ipc-rating-star--rating"]')
             review_body = self._get_element_text_or_default(review, './/div[@class="ipc-html-content-inner-div"]')
@@ -233,7 +214,8 @@ class ImdbMovieSpider(scrapy.Spider):
             for section in companies_sections:
                 company_type = section.find_element(By.XPATH, './/a//h3//span').text
 
-                for company in section.find_elements(By.XPATH, './/li//a[contains(@class, "ipc-metadata-list-item__label")]'):
+                for company in section.find_elements(By.XPATH,
+                                                     './/li//a[contains(@class, "ipc-metadata-list-item__label")]'):
                     companies_result.append(ImdbOrganization(type=company_type, name=company.text))
 
             movie['companies'] = companies_result

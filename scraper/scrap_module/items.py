@@ -12,6 +12,7 @@ class ImdbMovieItem(Item):
     meta_link = Field()
     budget = Field()
     parents_guide = Field()
+    box_office_link = Field()
     companies = Field()
 
 class ImdbParentsGuide(Item):
@@ -46,7 +47,26 @@ class MetacriticMovie(Item):
 class MetacriticReview(ImdbReview):
     type = Field()
 
-class MetacriticCast(Item):
+class Cast(Item):
     name = Field()
     position = Field()
     role = Field()
+
+class BoxOfficeMovie(Item):
+    box_office_link = Field()
+    opening_weekend = Field()
+    region_incomes = Field()
+    releases = Field()
+    cast = Field()
+
+class BoxOfficeRegionIncome(Item):
+    name = Field()
+    releases_amount = Field()
+    gross = Field()
+    rank = Field()
+
+class BoxOfficeRelease(Item):
+    date = Field()
+    domestic_income = Field()
+    international_income = Field()
+    worldwide_income = Field()

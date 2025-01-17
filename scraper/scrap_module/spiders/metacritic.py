@@ -2,11 +2,7 @@ from enum import Enum
 
 import scrapy
 
-from scrap_module.items import MetacriticMovie, MetacriticReview, MetacriticCast
-
-class ReviewType(Enum):
-    CRITIC = 'metacritic_critic'
-    USER = 'metacritic_user'
+from scrap_module.items import MetacriticMovie, MetacriticReview, Cast
 
 class MetacriticSpider(scrapy.Spider):
     name = "metacritic"
@@ -73,13 +69,13 @@ class MetacriticSpider(scrapy.Spider):
                 role = role.split('/')[0].strip().lower() if role else None
 
                 if main_title == 'cast':
-                    cast = MetacriticCast(
+                    cast = Cast(
                         name=name,
                         position=main_title,
                         role=role,
                     )
                 else:
-                    cast = MetacriticCast(
+                    cast = Cast(
                         name=name,
                         position=role if role else main_title,
                         role=None
@@ -88,29 +84,5 @@ class MetacriticSpider(scrapy.Spider):
                 result_cast.append(cast)
 
         movie['cast'] = result_cast
-
-        yield movie
-
-    def _parse_critic_reviews(self, response):
-        movie = response.request.meta['movie']
-        reviews_element = response.xpath("//div[@data-testid='product-review']")
-
-        critic_reviews = []
-        for review in reviews_element:
-            type = ReviewType.CRITIC.value
-            score = float(review.xpath(".//span[contains(@class, 'c-siteReviewScore')]/text()").get())
-            date = review.xpath(".//div[contains(@class, 'c-siteReviewHeader_reviewDate')]/text()").get()
-            body = review.xpath(".//div[contains(@class, 'c-siteReview_quote')]/span/text()").get()
-            author = review.xpath(".//a[contains(@class, 'c-siteReview_criticName')]/text()").get()
-
-            critic_reviews.append(MetacriticReview(
-                type=type,
-                score=score,
-                date=date,
-                body=body,
-                author=author
-            ))
-
-        movie['reviews'] = movie['reviews'] + critic_reviews
 
         yield movie
