@@ -4,7 +4,7 @@ run_spider() {
     spider_name=$1
     params=$2
     output_file=$3
-    echo "Запуск паука: scrapy crawl $spider_name $params -o $output_file"
+    echo "Spider started: scrapy crawl $spider_name $params -o $output_file"
     eval "scrapy crawl $spider_name $params -o $output_file"
 }
 

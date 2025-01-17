@@ -136,9 +136,12 @@ class ImdbMovieSpider(scrapy.Spider):
         scroll_to_bottom(driver)
 
         result_reviews = []
-        for review in wait.until(
+        for idx, review in enumerate(wait.until(
                 EC.presence_of_all_elements_located((By.XPATH, '//article[contains(@class, "user-review-item")]'))
-        ):
+        )):
+            if idx > 30:
+                break
+
             score = self._get_element_text_or_default(review, './/span[@class="ipc-rating-star--rating"]')
             review_body = self._get_element_text_or_default(review, './/div[@class="ipc-html-content-inner-div"]')
             date = self._get_element_text_or_default(review, './/li[@class="ipc-inline-list__item review-date"]')
