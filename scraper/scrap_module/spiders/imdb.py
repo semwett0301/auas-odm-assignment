@@ -73,9 +73,6 @@ class ImdbSpider(scrapy.Spider):
             wait_for_element_to_disappear(driver, "button.ipc-btn")
 
         for index, product in enumerate(driver.find_elements(By.CSS_SELECTOR, self._MOVIE_ELEM)):
-            if index == 1:
-                break
-
             try:
                 product.find_element(By.CSS_SELECTOR, '.metacritic-score-label')
                 url = product.find_element(By.CSS_SELECTOR, "a.ipc-title-link-wrapper").get_attribute("href")
