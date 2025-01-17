@@ -1,0 +1,1573 @@
+{
+  "box_office_link": "https://www.boxofficemojo.com/title/tt5040012/?ref_=sr_t_1",
+  "opening_weekend": "$21,652,560",
+  "region_incomes": [
+    {
+      "name": "Domestic",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$84,441,195"
+    },
+    {
+      "name": "United Kingdom",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$6,517,819"
+    },
+    {
+      "name": "Spain",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$3,183,482"
+    },
+    {
+      "name": "Italy",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$2,335,624"
+    },
+    {
+      "name": "France",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$1,999,435"
+    },
+    {
+      "name": "Germany",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$1,664,437"
+    },
+    {
+      "name": "Romania",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$853,027"
+    },
+    {
+      "name": "Sweden",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$616,149"
+    },
+    {
+      "name": "Netherlands",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$581,993"
+    },
+    {
+      "name": "Norway",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$546,572"
+    },
+    {
+      "name": "Czech Republic",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$492,592"
+    },
+    {
+      "name": "Belgium",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$473,529"
+    },
+    {
+      "name": "Austria",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$412,565"
+    },
+    {
+      "name": "Switzerland",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$364,633"
+    },
+    {
+      "name": "Portugal",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$341,271"
+    },
+    {
+      "name": "Finland",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$339,816"
+    },
+    {
+      "name": "United Arab Emirates",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$331,218"
+    },
+    {
+      "name": "Saudi Arabia",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$289,373"
+    },
+    {
+      "name": "Greece",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$280,538"
+    },
+    {
+      "name": "Denmark",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$262,122"
+    },
+    {
+      "name": "Middle East Other",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$258,763"
+    },
+    {
+      "name": "Ukraine",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$231,779"
+    },
+    {
+      "name": "Slovakia",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$231,234"
+    },
+    {
+      "name": "Hungary",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$221,232"
+    },
+    {
+      "name": "T\u00fcrkiye",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$167,971"
+    },
+    {
+      "name": "Bulgaria",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$163,256"
+    },
+    {
+      "name": "Croatia",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$110,466"
+    },
+    {
+      "name": "Iceland",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$108,488"
+    },
+    {
+      "name": "Lithuania",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$83,529"
+    },
+    {
+      "name": "Serbia and Montenegro",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$72,799"
+    },
+    {
+      "name": "Slovenia",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$67,078"
+    },
+    {
+      "name": "Israel",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$52,404"
+    },
+    {
+      "name": "Latvia",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$43,940"
+    },
+    {
+      "name": "Estonia",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$42,440"
+    },
+    {
+      "name": "Egypt",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$26,827"
+    },
+    {
+      "name": "Cyprus",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$18,829"
+    },
+    {
+      "name": "Bosnia and Herzegovina",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$15,261"
+    },
+    {
+      "name": "Albania",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$7,458"
+    },
+    {
+      "name": "North Macedonia",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$6,379"
+    },
+    {
+      "name": "Mexico",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$3,442,668"
+    },
+    {
+      "name": "Brazil",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$966,596"
+    },
+    {
+      "name": "Colombia",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$895,321"
+    },
+    {
+      "name": "Central America",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$424,921"
+    },
+    {
+      "name": "Argentina",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$366,939"
+    },
+    {
+      "name": "Chile",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$309,698"
+    },
+    {
+      "name": "Peru",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$217,002"
+    },
+    {
+      "name": "Ecuador",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$167,113"
+    },
+    {
+      "name": "Bolivia",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$46,999"
+    },
+    {
+      "name": "Trinidad & Tobago",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$46,203"
+    },
+    {
+      "name": "Uruguay",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$29,544"
+    },
+    {
+      "name": "Australia",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$2,002,155"
+    },
+    {
+      "name": "New Zealand",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$342,138"
+    },
+    {
+      "name": "Russia/CIS",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$217,445"
+    }
+  ],
+  "releases": [
+    {
+      "date": "December 25, 2024\n            (EMEA, Domestic)",
+      "domestic_income": "$84,441,195",
+      "international_income": "$53,507,000",
+      "worldwide_income": "$137,948,195"
+    }
+  ],
+  "cast": [
+    {
+      "name": "Robert Eggers",
+      "position": "Director",
+      "role": null
+    },
+    {
+      "name": "Robert Eggers",
+      "position": "Writer",
+      "role": null
+    },
+    {
+      "name": "Henrik Galeen",
+      "position": "Writer",
+      "role": null
+    },
+    {
+      "name": "Bram Stoker",
+      "position": "Writer",
+      "role": null
+    },
+    {
+      "name": "Chris Columbus",
+      "position": "Producer",
+      "role": null
+    },
+    {
+      "name": "Eleanor Columbus",
+      "position": "Producer",
+      "role": null
+    },
+    {
+      "name": "Robert Eggers",
+      "position": "Producer",
+      "role": null
+    },
+    {
+      "name": "John Graham",
+      "position": "Producer",
+      "role": null
+    },
+    {
+      "name": "Jeff Robinov",
+      "position": "Producer",
+      "role": null
+    },
+    {
+      "name": "Robin Carolan",
+      "position": "Composer",
+      "role": null
+    },
+    {
+      "name": "Jarin Blaschke",
+      "position": "Cinematographer",
+      "role": null
+    },
+    {
+      "name": "Louise Ford",
+      "position": "Editor",
+      "role": null
+    },
+    {
+      "name": "Craig Lathrop",
+      "position": "Production Designer",
+      "role": null
+    },
+    {
+      "name": "Lily-Rose Depp",
+      "position": "Actor",
+      "role": "Ellen Hutter"
+    },
+    {
+      "name": "Nicholas Hoult",
+      "position": "Actor",
+      "role": "Thomas Hutter"
+    },
+    {
+      "name": "Bill Skarsg\u00e5rd",
+      "position": "Actor",
+      "role": "Count Orlok"
+    },
+    {
+      "name": "Aaron Taylor-Johnson",
+      "position": "Actor",
+      "role": "Friedrich Harding"
+    },
+    {
+      "name": "Lily-Rose Depp",
+      "position": "Actor",
+      "role": "Ellen Hutter"
+    },
+    {
+      "name": "Nicholas Hoult",
+      "position": "Actor",
+      "role": "Thomas Hutter"
+    },
+    {
+      "name": "Bill Skarsg\u00e5rd",
+      "position": "Actor",
+      "role": "Count Orlok"
+    },
+    {
+      "name": "Aaron Taylor-Johnson",
+      "position": "Actor",
+      "role": "Friedrich Harding"
+    },
+    {
+      "name": "Lily-Rose Depp",
+      "position": "Actor",
+      "role": "Ellen Hutter"
+    },
+    {
+      "name": "Nicholas Hoult",
+      "position": "Actor",
+      "role": "Thomas Hutter"
+    },
+    {
+      "name": "Bill Skarsg\u00e5rd",
+      "position": "Actor",
+      "role": "Count Orlok"
+    },
+    {
+      "name": "Aaron Taylor-Johnson",
+      "position": "Actor",
+      "role": "Friedrich Harding"
+    },
+    {
+      "name": "Lily-Rose Depp",
+      "position": "Actor",
+      "role": "Ellen Hutter"
+    },
+    {
+      "name": "Nicholas Hoult",
+      "position": "Actor",
+      "role": "Thomas Hutter"
+    },
+    {
+      "name": "Bill Skarsg\u00e5rd",
+      "position": "Actor",
+      "role": "Count Orlok"
+    },
+    {
+      "name": "Aaron Taylor-Johnson",
+      "position": "Actor",
+      "role": "Friedrich Harding"
+    },
+    {
+      "name": "Lily-Rose Depp",
+      "position": "Actor",
+      "role": "Ellen Hutter"
+    },
+    {
+      "name": "Nicholas Hoult",
+      "position": "Actor",
+      "role": "Thomas Hutter"
+    },
+    {
+      "name": "Bill Skarsg\u00e5rd",
+      "position": "Actor",
+      "role": "Count Orlok"
+    },
+    {
+      "name": "Aaron Taylor-Johnson",
+      "position": "Actor",
+      "role": "Friedrich Harding"
+    },
+    {
+      "name": "Lily-Rose Depp",
+      "position": "Actor",
+      "role": "Ellen Hutter"
+    },
+    {
+      "name": "Nicholas Hoult",
+      "position": "Actor",
+      "role": "Thomas Hutter"
+    },
+    {
+      "name": "Bill Skarsg\u00e5rd",
+      "position": "Actor",
+      "role": "Count Orlok"
+    },
+    {
+      "name": "Aaron Taylor-Johnson",
+      "position": "Actor",
+      "role": "Friedrich Harding"
+    },
+    {
+      "name": "Lily-Rose Depp",
+      "position": "Actor",
+      "role": "Ellen Hutter"
+    },
+    {
+      "name": "Nicholas Hoult",
+      "position": "Actor",
+      "role": "Thomas Hutter"
+    },
+    {
+      "name": "Bill Skarsg\u00e5rd",
+      "position": "Actor",
+      "role": "Count Orlok"
+    },
+    {
+      "name": "Aaron Taylor-Johnson",
+      "position": "Actor",
+      "role": "Friedrich Harding"
+    },
+    {
+      "name": "Lily-Rose Depp",
+      "position": "Actor",
+      "role": "Ellen Hutter"
+    },
+    {
+      "name": "Nicholas Hoult",
+      "position": "Actor",
+      "role": "Thomas Hutter"
+    },
+    {
+      "name": "Bill Skarsg\u00e5rd",
+      "position": "Actor",
+      "role": "Count Orlok"
+    },
+    {
+      "name": "Aaron Taylor-Johnson",
+      "position": "Actor",
+      "role": "Friedrich Harding"
+    },
+    {
+      "name": "Lily-Rose Depp",
+      "position": "Actor",
+      "role": "Ellen Hutter"
+    },
+    {
+      "name": "Nicholas Hoult",
+      "position": "Actor",
+      "role": "Thomas Hutter"
+    },
+    {
+      "name": "Bill Skarsg\u00e5rd",
+      "position": "Actor",
+      "role": "Count Orlok"
+    },
+    {
+      "name": "Aaron Taylor-Johnson",
+      "position": "Actor",
+      "role": "Friedrich Harding"
+    },
+    {
+      "name": "Lily-Rose Depp",
+      "position": "Actor",
+      "role": "Ellen Hutter"
+    },
+    {
+      "name": "Nicholas Hoult",
+      "position": "Actor",
+      "role": "Thomas Hutter"
+    },
+    {
+      "name": "Bill Skarsg\u00e5rd",
+      "position": "Actor",
+      "role": "Count Orlok"
+    },
+    {
+      "name": "Aaron Taylor-Johnson",
+      "position": "Actor",
+      "role": "Friedrich Harding"
+    },
+    {
+      "name": "Lily-Rose Depp",
+      "position": "Actor",
+      "role": "Ellen Hutter"
+    },
+    {
+      "name": "Nicholas Hoult",
+      "position": "Actor",
+      "role": "Thomas Hutter"
+    },
+    {
+      "name": "Bill Skarsg\u00e5rd",
+      "position": "Actor",
+      "role": "Count Orlok"
+    },
+    {
+      "name": "Aaron Taylor-Johnson",
+      "position": "Actor",
+      "role": "Friedrich Harding"
+    },
+    {
+      "name": "Lily-Rose Depp",
+      "position": "Actor",
+      "role": "Ellen Hutter"
+    },
+    {
+      "name": "Nicholas Hoult",
+      "position": "Actor",
+      "role": "Thomas Hutter"
+    },
+    {
+      "name": "Bill Skarsg\u00e5rd",
+      "position": "Actor",
+      "role": "Count Orlok"
+    },
+    {
+      "name": "Aaron Taylor-Johnson",
+      "position": "Actor",
+      "role": "Friedrich Harding"
+    },
+    {
+      "name": "Lily-Rose Depp",
+      "position": "Actor",
+      "role": "Ellen Hutter"
+    },
+    {
+      "name": "Nicholas Hoult",
+      "position": "Actor",
+      "role": "Thomas Hutter"
+    },
+    {
+      "name": "Bill Skarsg\u00e5rd",
+      "position": "Actor",
+      "role": "Count Orlok"
+    },
+    {
+      "name": "Aaron Taylor-Johnson",
+      "position": "Actor",
+      "role": "Friedrich Harding"
+    }
+  ]
+}
+{
+  "box_office_link": "https://www.boxofficemojo.com/title/tt8999762/?ref_=sr_t_2",
+  "opening_weekend": "$266,791",
+  "region_incomes": [
+    {
+      "name": "Domestic",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$1,354,377"
+    },
+    {
+      "name": "Hungary",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$9,200"
+    }
+  ],
+  "releases": [
+    {
+      "date": "December 20, 2024\n            (Domestic)",
+      "domestic_income": "$2,742,117",
+      "international_income": "$9,200",
+      "worldwide_income": "$2,751,317"
+    }
+  ],
+  "cast": [
+    {
+      "name": "Brady Corbet",
+      "position": "Director",
+      "role": null
+    },
+    {
+      "name": "Brady Corbet",
+      "position": "Writer",
+      "role": null
+    },
+    {
+      "name": "Mona Fastvold",
+      "position": "Writer",
+      "role": null
+    },
+    {
+      "name": "Nick Gordon",
+      "position": "Producer",
+      "role": null
+    },
+    {
+      "name": "D.J. Gugenheim",
+      "position": "Producer",
+      "role": null
+    },
+    {
+      "name": "Andrew Lauren",
+      "position": "Producer",
+      "role": null
+    },
+    {
+      "name": "Trevor Matthews",
+      "position": "Producer",
+      "role": null
+    },
+    {
+      "name": "Andrew Morrison",
+      "position": "Producer",
+      "role": null
+    },
+    {
+      "name": "Brian Young",
+      "position": "Producer",
+      "role": null
+    },
+    {
+      "name": "Daniel Blumberg",
+      "position": "Composer",
+      "role": null
+    },
+    {
+      "name": "Lol Crawley",
+      "position": "Cinematographer",
+      "role": null
+    },
+    {
+      "name": "D\u00e1vid Jancs\u00f3",
+      "position": "Editor",
+      "role": null
+    },
+    {
+      "name": "Judy Becker",
+      "position": "Production Designer",
+      "role": null
+    },
+    {
+      "name": "Adrien Brody",
+      "position": "Actor",
+      "role": "L\u00e1szl\u00f3 T\u00f3th"
+    },
+    {
+      "name": "Felicity Jones",
+      "position": "Actor",
+      "role": "Erzs\u00e9bet T\u00f3th"
+    },
+    {
+      "name": "Guy Pearce",
+      "position": "Actor",
+      "role": "Harrison Lee Van Buren Sr."
+    },
+    {
+      "name": "Joe Alwyn",
+      "position": "Actor",
+      "role": "Harry Lee"
+    },
+    {
+      "name": "Adrien Brody",
+      "position": "Actor",
+      "role": "L\u00e1szl\u00f3 T\u00f3th"
+    },
+    {
+      "name": "Felicity Jones",
+      "position": "Actor",
+      "role": "Erzs\u00e9bet T\u00f3th"
+    },
+    {
+      "name": "Guy Pearce",
+      "position": "Actor",
+      "role": "Harrison Lee Van Buren Sr."
+    },
+    {
+      "name": "Joe Alwyn",
+      "position": "Actor",
+      "role": "Harry Lee"
+    },
+    {
+      "name": "Adrien Brody",
+      "position": "Actor",
+      "role": "L\u00e1szl\u00f3 T\u00f3th"
+    },
+    {
+      "name": "Felicity Jones",
+      "position": "Actor",
+      "role": "Erzs\u00e9bet T\u00f3th"
+    },
+    {
+      "name": "Guy Pearce",
+      "position": "Actor",
+      "role": "Harrison Lee Van Buren Sr."
+    },
+    {
+      "name": "Joe Alwyn",
+      "position": "Actor",
+      "role": "Harry Lee"
+    },
+    {
+      "name": "Adrien Brody",
+      "position": "Actor",
+      "role": "L\u00e1szl\u00f3 T\u00f3th"
+    },
+    {
+      "name": "Felicity Jones",
+      "position": "Actor",
+      "role": "Erzs\u00e9bet T\u00f3th"
+    },
+    {
+      "name": "Guy Pearce",
+      "position": "Actor",
+      "role": "Harrison Lee Van Buren Sr."
+    },
+    {
+      "name": "Joe Alwyn",
+      "position": "Actor",
+      "role": "Harry Lee"
+    },
+    {
+      "name": "Adrien Brody",
+      "position": "Actor",
+      "role": "L\u00e1szl\u00f3 T\u00f3th"
+    },
+    {
+      "name": "Felicity Jones",
+      "position": "Actor",
+      "role": "Erzs\u00e9bet T\u00f3th"
+    },
+    {
+      "name": "Guy Pearce",
+      "position": "Actor",
+      "role": "Harrison Lee Van Buren Sr."
+    },
+    {
+      "name": "Joe Alwyn",
+      "position": "Actor",
+      "role": "Harry Lee"
+    },
+    {
+      "name": "Adrien Brody",
+      "position": "Actor",
+      "role": "L\u00e1szl\u00f3 T\u00f3th"
+    },
+    {
+      "name": "Felicity Jones",
+      "position": "Actor",
+      "role": "Erzs\u00e9bet T\u00f3th"
+    },
+    {
+      "name": "Guy Pearce",
+      "position": "Actor",
+      "role": "Harrison Lee Van Buren Sr."
+    },
+    {
+      "name": "Joe Alwyn",
+      "position": "Actor",
+      "role": "Harry Lee"
+    },
+    {
+      "name": "Adrien Brody",
+      "position": "Actor",
+      "role": "L\u00e1szl\u00f3 T\u00f3th"
+    },
+    {
+      "name": "Felicity Jones",
+      "position": "Actor",
+      "role": "Erzs\u00e9bet T\u00f3th"
+    },
+    {
+      "name": "Guy Pearce",
+      "position": "Actor",
+      "role": "Harrison Lee Van Buren Sr."
+    },
+    {
+      "name": "Joe Alwyn",
+      "position": "Actor",
+      "role": "Harry Lee"
+    },
+    {
+      "name": "Adrien Brody",
+      "position": "Actor",
+      "role": "L\u00e1szl\u00f3 T\u00f3th"
+    },
+    {
+      "name": "Felicity Jones",
+      "position": "Actor",
+      "role": "Erzs\u00e9bet T\u00f3th"
+    },
+    {
+      "name": "Guy Pearce",
+      "position": "Actor",
+      "role": "Harrison Lee Van Buren Sr."
+    },
+    {
+      "name": "Joe Alwyn",
+      "position": "Actor",
+      "role": "Harry Lee"
+    },
+    {
+      "name": "Adrien Brody",
+      "position": "Actor",
+      "role": "L\u00e1szl\u00f3 T\u00f3th"
+    },
+    {
+      "name": "Felicity Jones",
+      "position": "Actor",
+      "role": "Erzs\u00e9bet T\u00f3th"
+    },
+    {
+      "name": "Guy Pearce",
+      "position": "Actor",
+      "role": "Harrison Lee Van Buren Sr."
+    },
+    {
+      "name": "Joe Alwyn",
+      "position": "Actor",
+      "role": "Harry Lee"
+    },
+    {
+      "name": "Adrien Brody",
+      "position": "Actor",
+      "role": "L\u00e1szl\u00f3 T\u00f3th"
+    },
+    {
+      "name": "Felicity Jones",
+      "position": "Actor",
+      "role": "Erzs\u00e9bet T\u00f3th"
+    },
+    {
+      "name": "Guy Pearce",
+      "position": "Actor",
+      "role": "Harrison Lee Van Buren Sr."
+    },
+    {
+      "name": "Joe Alwyn",
+      "position": "Actor",
+      "role": "Harry Lee"
+    },
+    {
+      "name": "Adrien Brody",
+      "position": "Actor",
+      "role": "L\u00e1szl\u00f3 T\u00f3th"
+    },
+    {
+      "name": "Felicity Jones",
+      "position": "Actor",
+      "role": "Erzs\u00e9bet T\u00f3th"
+    },
+    {
+      "name": "Guy Pearce",
+      "position": "Actor",
+      "role": "Harrison Lee Van Buren Sr."
+    },
+    {
+      "name": "Joe Alwyn",
+      "position": "Actor",
+      "role": "Harry Lee"
+    },
+    {
+      "name": "Adrien Brody",
+      "position": "Actor",
+      "role": "L\u00e1szl\u00f3 T\u00f3th"
+    },
+    {
+      "name": "Felicity Jones",
+      "position": "Actor",
+      "role": "Erzs\u00e9bet T\u00f3th"
+    },
+    {
+      "name": "Guy Pearce",
+      "position": "Actor",
+      "role": "Harrison Lee Van Buren Sr."
+    },
+    {
+      "name": "Joe Alwyn",
+      "position": "Actor",
+      "role": "Harry Lee"
+    },
+    {
+      "name": "Adrien Brody",
+      "position": "Actor",
+      "role": "L\u00e1szl\u00f3 T\u00f3th"
+    },
+    {
+      "name": "Felicity Jones",
+      "position": "Actor",
+      "role": "Erzs\u00e9bet T\u00f3th"
+    },
+    {
+      "name": "Guy Pearce",
+      "position": "Actor",
+      "role": "Harrison Lee Van Buren Sr."
+    },
+    {
+      "name": "Joe Alwyn",
+      "position": "Actor",
+      "role": "Harry Lee"
+    }
+  ]
+}
+{
+  "box_office_link": "https://www.boxofficemojo.com/title/tt17526714/?ref_=sr_t_3",
+  "opening_weekend": "$3,205,212",
+  "region_incomes": [
+    {
+      "name": "Domestic",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$16,472,109"
+    },
+    {
+      "name": "United Kingdom",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$5,128,067"
+    },
+    {
+      "name": "France",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$4,170,555"
+    },
+    {
+      "name": "Spain",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$3,631,454"
+    },
+    {
+      "name": "Italy",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$2,802,555"
+    },
+    {
+      "name": "Poland",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$2,304,986"
+    },
+    {
+      "name": "Netherlands",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$2,257,514"
+    },
+    {
+      "name": "Germany",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$1,708,525"
+    },
+    {
+      "name": "Belgium",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$680,713"
+    },
+    {
+      "name": "Switzerland",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$633,392"
+    },
+    {
+      "name": "Finland",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$584,873"
+    },
+    {
+      "name": "Sweden",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$474,473"
+    },
+    {
+      "name": "Portugal",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$468,414"
+    },
+    {
+      "name": "Ukraine",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$439,483"
+    },
+    {
+      "name": "Norway",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$340,074"
+    },
+    {
+      "name": "Greece",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$339,783"
+    },
+    {
+      "name": "Denmark",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$334,051"
+    },
+    {
+      "name": "Austria",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$320,659"
+    },
+    {
+      "name": "Hungary",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$272,139"
+    },
+    {
+      "name": "Czech Republic",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$250,072"
+    },
+    {
+      "name": "Israel",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$165,312"
+    },
+    {
+      "name": "Lithuania",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$134,201"
+    },
+    {
+      "name": "Latvia",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$125,413"
+    },
+    {
+      "name": "Estonia",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$124,928"
+    },
+    {
+      "name": "Serbia and Montenegro",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$112,003"
+    },
+    {
+      "name": "Croatia",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$93,359"
+    },
+    {
+      "name": "T\u00fcrkiye",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$86,159"
+    },
+    {
+      "name": "Slovakia",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$63,731"
+    },
+    {
+      "name": "Romania",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$55,733"
+    },
+    {
+      "name": "Iceland",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$55,670"
+    },
+    {
+      "name": "Slovenia",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$17,055"
+    },
+    {
+      "name": "Mexico",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$10,055,203"
+    },
+    {
+      "name": "Central America",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$10,046,902"
+    },
+    {
+      "name": "Colombia",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$1,654,137"
+    },
+    {
+      "name": "Russia/CIS",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$5,652,831"
+    },
+    {
+      "name": "Australia",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$1,843,063"
+    },
+    {
+      "name": "South Korea",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$1,164,982"
+    },
+    {
+      "name": "Hong Kong",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$910,315"
+    },
+    {
+      "name": "Thailand",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$769,828"
+    },
+    {
+      "name": "Taiwan",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$686,322"
+    },
+    {
+      "name": "New Zealand",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$242,935"
+    },
+    {
+      "name": "Philippines",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$196,008"
+    },
+    {
+      "name": "Vietnam",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$166,923"
+    },
+    {
+      "name": "Indonesia",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$146,745"
+    },
+    {
+      "name": "Singapore",
+      "releases_amount": 1,
+      "rank": null,
+      "gross": "$131,367"
+    }
+  ],
+  "releases": [
+    {
+      "date": "August 31, 2024\n            (Italy)",
+      "domestic_income": "$16,472,109",
+      "international_income": "$61,842,907",
+      "worldwide_income": "$78,315,016"
+    }
+  ],
+  "cast": [
+    {
+      "name": "Coralie Fargeat",
+      "position": "Director",
+      "role": null
+    },
+    {
+      "name": "Coralie Fargeat",
+      "position": "Writer",
+      "role": null
+    },
+    {
+      "name": "Tim Bevan",
+      "position": "Producer",
+      "role": null
+    },
+    {
+      "name": "Coralie Fargeat",
+      "position": "Producer",
+      "role": null
+    },
+    {
+      "name": "Eric Fellner",
+      "position": "Producer",
+      "role": null
+    },
+    {
+      "name": "Raffertie",
+      "position": "Composer",
+      "role": null
+    },
+    {
+      "name": "Benjamin Kracun",
+      "position": "Cinematographer",
+      "role": null
+    },
+    {
+      "name": "Jerome Eltabet",
+      "position": "Editor",
+      "role": null
+    },
+    {
+      "name": "Coralie Fargeat",
+      "position": "Editor",
+      "role": null
+    },
+    {
+      "name": "Valentin F\u00e9ron",
+      "position": "Editor",
+      "role": null
+    },
+    {
+      "name": "Stanislas Reydellet",
+      "position": "Production Designer",
+      "role": null
+    },
+    {
+      "name": "Demi Moore",
+      "position": "Actor",
+      "role": "Elisabeth"
+    },
+    {
+      "name": "Margaret Qualley",
+      "position": "Actor",
+      "role": "Sue"
+    },
+    {
+      "name": "Dennis Quaid",
+      "position": "Actor",
+      "role": "Harvey"
+    },
+    {
+      "name": "Edward Hamilton-Clark",
+      "position": "Actor",
+      "role": "Fred"
+    },
+    {
+      "name": "Demi Moore",
+      "position": "Actor",
+      "role": "Elisabeth"
+    },
+    {
+      "name": "Margaret Qualley",
+      "position": "Actor",
+      "role": "Sue"
+    },
+    {
+      "name": "Dennis Quaid",
+      "position": "Actor",
+      "role": "Harvey"
+    },
+    {
+      "name": "Edward Hamilton-Clark",
+      "position": "Actor",
+      "role": "Fred"
+    },
+    {
+      "name": "Demi Moore",
+      "position": "Actor",
+      "role": "Elisabeth"
+    },
+    {
+      "name": "Margaret Qualley",
+      "position": "Actor",
+      "role": "Sue"
+    },
+    {
+      "name": "Dennis Quaid",
+      "position": "Actor",
+      "role": "Harvey"
+    },
+    {
+      "name": "Edward Hamilton-Clark",
+      "position": "Actor",
+      "role": "Fred"
+    },
+    {
+      "name": "Demi Moore",
+      "position": "Actor",
+      "role": "Elisabeth"
+    },
+    {
+      "name": "Margaret Qualley",
+      "position": "Actor",
+      "role": "Sue"
+    },
+    {
+      "name": "Dennis Quaid",
+      "position": "Actor",
+      "role": "Harvey"
+    },
+    {
+      "name": "Edward Hamilton-Clark",
+      "position": "Actor",
+      "role": "Fred"
+    },
+    {
+      "name": "Demi Moore",
+      "position": "Actor",
+      "role": "Elisabeth"
+    },
+    {
+      "name": "Margaret Qualley",
+      "position": "Actor",
+      "role": "Sue"
+    },
+    {
+      "name": "Dennis Quaid",
+      "position": "Actor",
+      "role": "Harvey"
+    },
+    {
+      "name": "Edward Hamilton-Clark",
+      "position": "Actor",
+      "role": "Fred"
+    },
+    {
+      "name": "Demi Moore",
+      "position": "Actor",
+      "role": "Elisabeth"
+    },
+    {
+      "name": "Margaret Qualley",
+      "position": "Actor",
+      "role": "Sue"
+    },
+    {
+      "name": "Dennis Quaid",
+      "position": "Actor",
+      "role": "Harvey"
+    },
+    {
+      "name": "Edward Hamilton-Clark",
+      "position": "Actor",
+      "role": "Fred"
+    },
+    {
+      "name": "Demi Moore",
+      "position": "Actor",
+      "role": "Elisabeth"
+    },
+    {
+      "name": "Margaret Qualley",
+      "position": "Actor",
+      "role": "Sue"
+    },
+    {
+      "name": "Dennis Quaid",
+      "position": "Actor",
+      "role": "Harvey"
+    },
+    {
+      "name": "Edward Hamilton-Clark",
+      "position": "Actor",
+      "role": "Fred"
+    },
+    {
+      "name": "Demi Moore",
+      "position": "Actor",
+      "role": "Elisabeth"
+    },
+    {
+      "name": "Margaret Qualley",
+      "position": "Actor",
+      "role": "Sue"
+    },
+    {
+      "name": "Dennis Quaid",
+      "position": "Actor",
+      "role": "Harvey"
+    },
+    {
+      "name": "Edward Hamilton-Clark",
+      "position": "Actor",
+      "role": "Fred"
+    },
+    {
+      "name": "Demi Moore",
+      "position": "Actor",
+      "role": "Elisabeth"
+    },
+    {
+      "name": "Margaret Qualley",
+      "position": "Actor",
+      "role": "Sue"
+    },
+    {
+      "name": "Dennis Quaid",
+      "position": "Actor",
+      "role": "Harvey"
+    },
+    {
+      "name": "Edward Hamilton-Clark",
+      "position": "Actor",
+      "role": "Fred"
+    },
+    {
+      "name": "Demi Moore",
+      "position": "Actor",
+      "role": "Elisabeth"
+    },
+    {
+      "name": "Margaret Qualley",
+      "position": "Actor",
+      "role": "Sue"
+    },
+    {
+      "name": "Dennis Quaid",
+      "position": "Actor",
+      "role": "Harvey"
+    },
+    {
+      "name": "Edward Hamilton-Clark",
+      "position": "Actor",
+      "role": "Fred"
+    },
+    {
+      "name": "Demi Moore",
+      "position": "Actor",
+      "role": "Elisabeth"
+    },
+    {
+      "name": "Margaret Qualley",
+      "position": "Actor",
+      "role": "Sue"
+    },
+    {
+      "name": "Dennis Quaid",
+      "position": "Actor",
+      "role": "Harvey"
+    },
+    {
+      "name": "Edward Hamilton-Clark",
+      "position": "Actor",
+      "role": "Fred"
+    }
+  ]
+}

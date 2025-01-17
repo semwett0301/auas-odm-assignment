@@ -2,7 +2,8 @@ pandas==2.0.3
 numpy==1.24.3
 python-dotenv==1.0.1
 sqlalchemy==2.0.34
-psycopg2==2.9.9
+psycopg2
+psycopg2-binary
 plotly
 scipy
 seaborn
@@ -11,5 +12,5 @@ fastparquet
 pyarrow
 scrapy
 scrapy-selenium
-selenium
+selenium==3.9.0
 scrapy-proxies
